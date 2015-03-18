@@ -1,4 +1,4 @@
-from datetime import datetime
+  from datetime import datetime
 from pony.orm import *
 
 db = Database("sqlite", "data.sqlite", create_db=True)
@@ -34,6 +34,7 @@ class Comment(db.Entity):
     dt = Required(datetime, default=datetime.now)
     text = Required(unicode)
     mentioned = Set(User, reverse="mentioned")
+
 
 
 class Like(db.Entity):
