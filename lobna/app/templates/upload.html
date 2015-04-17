@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<head>
+      
+ <meta charset="utf-8">
+    <title>Epiphany Photo Sharing </title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/main.css" rel="stylesheet">
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/knockout.js"></script>
+    <script src="/static/js/underscore.js"></script>
+    <script src="/static/js/pony.js"></script>
+    <script src="/static/js/main.js"> </script>
+
+</head>
+<!-- END HEAD -->
+<style>
+        body{
+        	margin: 0px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 10px;
+            padding: 10px;
+          }
+
+        li {
+            font-size: 18;
+            display: inline;
+            font-family: Verdana;    
+          }
+
+        a {
+            text-decoration: none;
+            color: #fff2f2;
+          }
+</style>
+<!-- BEGIN BODY -->
+<body>
+	<!-- navigation bar -->
+<div style = "background-color: #794044; height:75px; text-align: left">
+    <form>
+    <ul >
+    <a style = "font-size: 25px"; href="/">Upload New Image on Epiphany Photo Sharing &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</a>
+    
+      <!-- <li><a href="/home">Home &nbsp; &nbsp;</a></li> -->
+      <li><a href="/">Home&nbsp; &nbsp;</a></li>
+      <li><a href="/profile">Profile&nbsp; &nbsp;</a></li>
+       <li><a href="/login">Log Out</a></li>
+      
+    </ul>
+    </form>
+    </div>
+     <div class="container min-hight">
+    <h1>Upload new image</h1>
+    <form action="" method=post enctype=multipart/form-data>
+      <p><input type=file name=file>
+         <input type=submit value=Upload></p>
+    </form>
+    </div>
+</body>
+<!-- END BODY -->
+</html>

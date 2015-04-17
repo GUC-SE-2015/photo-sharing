@@ -1,0 +1,15 @@
+ body {
+     padding-top: 70px;
+ }
+ 
+ td {
+     cursor: pointer;
+ }
+ 
+ caption {
+     font-weight: bold;
+ }
+ 
+ .margin-top-8 {
+     margin-top: 8px;
+ }
